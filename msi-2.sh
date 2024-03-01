@@ -15,3 +15,4 @@ mount /dev/nvme0n1p1 /boot/efi
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
 grub-mkconfig -o /boot/grub/grub.cfg
 pacman -S sudo
+localectl set-keymap de && localectl set-x11-keymap de
