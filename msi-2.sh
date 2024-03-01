@@ -16,3 +16,4 @@ grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
 grub-mkconfig -o /boot/grub/grub.cfg
 pacman -S sudo
 localectl set-keymap de && localectl set-x11-keymap de
+pacman -S alacritty scrot nitrogen picom slock rofi dusnt thunar mousepad polybar breeze breeze-gtk qtile
